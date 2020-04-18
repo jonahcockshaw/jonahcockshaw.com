@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;        
+}
+
+body {
+    height: 100%;
+    border-left: 10px solid coral;
+}
+
+header {
+    padding: 50px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    transition: all 200ms;
+}
+
+.pic:hover {
+    opacity: 0.9;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.name {
+    text-decoration: none;
+}
+
+.name:hover {
+    background-color: coral;
+    color: white;
+}
+
+.name:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.name:visited:hover {
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+}
+
+.twitter {
+    height: auto;
+    width: auto;
+    transition: all 200ms;
+}
+
+.twitter:hover {
+    opacity: 0.5;
+}
+
+.bio {
+    display: inline;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu-item:hover {
+    background-color: coral;
+    color: white;
+}
+
+.menu-item:active {
+    color: black;
+}
+
+.main {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.p-content {
+    padding-bottom: 15px;
+}
+
+.p-link {
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px dashed black;;
+}
+
+ul {
+    list-style: square;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.list-item {
+    text-decoration: none;
+    color: coral;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.list-item:hover {
+    background-color: coral;
+    color: white;
+}
+
+.author {
+    background: #eee;
+    color: black;
+    margin-left: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: smaller;
+}
+
+footer {
+    padding: 50px;
+}
+
+.footer-text {
+    color: grey;
+    font-size: smaller;
+}
+
+.changelog {
+    color: grey;
+    text-decoration: underline;
+    font-weight: bold;
+}
